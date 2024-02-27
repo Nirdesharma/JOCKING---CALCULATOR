@@ -9,6 +9,7 @@ import java.io.IOException;
 /**
  * Servlet implementation class MyServlet
  */
+@WebServlet("/MyCalServlet")
 public class MyCalServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private String[] jokes = {
